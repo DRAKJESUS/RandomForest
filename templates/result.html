@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados de Predicción</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Resultados de la Predicción</h1>
+    <img src="{{ plot_url }}" alt="Resultados de Predicción">
+    <a href="{{ url_for('index') }}">Recargar</a>
+</body>
+</html>
